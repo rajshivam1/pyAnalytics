@@ -119,7 +119,7 @@ list1
 #for loop : indentations with colon : Run next 2 lines together
 for i in list1:
     print(i)
-
+list1[0]
   
 for i in list1:    print(i , end ='\t')
 #print?  #help
@@ -136,7 +136,7 @@ list5
 for i in tuple1:    print(i, end ='\t')
 help(range)  # start, stop, step; does not take keyword
 range(1, 100, 2)  #nothing happens, though it generates 
-for i in range(1, 100, 2):    print(i, end=' ')
+for i in range(1, 100, 5):    print(i, end=' ')
 
 #odd nos between x & y    
 
@@ -160,12 +160,12 @@ marksz
 #combine and then split
 
 #%% #numpy - array - same data type - numerical python
-list1 = [1,2,3,5]
+list1 = [1,2,3,5,'a']
 list1
 import numpy
 numpy.array([10,20])
 numpy.array([list1])
-
+numpy.
 import numpy as np #np is alias
 np1 = np.arange(1,10)
 np1
@@ -177,6 +177,7 @@ x[1:50:10]
 np
 np.mean(np.arange(1,10000000))
 np1
+type(list1)
 type(np1)
 help(np)
 #help on numpy 
@@ -285,7 +286,7 @@ data2a  #not defined
 data2a = pd.read_csv('mtcars.csv') #when csv is in project folder
 data2a
 data2b #not defined
-data2b = pd.read_csv('E:/analytics/projects/pyanalytics/mtcars.csv')
+data2b = pd.read_csv('D:/analytics/projects/pyanalytics/mtcars.csv')
 data2b
 #csv in any other location - full path
 data2b
